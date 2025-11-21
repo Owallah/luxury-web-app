@@ -7,7 +7,7 @@ export const teamMembers = [
     {
       id: 1,
       name: "Charles Amunga ",
-      position: "CEO",
+      role: "CEO",
       email: "charles@monarkyconcepts.co.ke",
       phone: "+254 721 239 620",
       image: Charles,
@@ -15,7 +15,7 @@ export const teamMembers = [
     {
       id: 2,
       name: "Jackie Malika",
-      position: "Administrative Director",
+      role: "Administrative Director",
       email: "operations@monarkyconcepts.co.ke",
       phone: "+254 723 351 800",
       image: Malika,
@@ -23,7 +23,7 @@ export const teamMembers = [
     {
       id: 3,
       name: "Shadrack Omondi",
-      position: "Sales Agronomist",
+      role: "Sales Agronomist",
       email: "agronomist@monarkyconcepts.co.ke",
       phone: "+254 790 842 704",
       image: Omondi,
@@ -31,7 +31,7 @@ export const teamMembers = [
     {
       id: 4,
       name: "Margaret Waweru",
-      position: "Marketing Officer",
+      role: "Marketing Officer",
       email: "marketing@monarkyconcepts.co.ke",
       phone: "+254 715 934 316",
       image: Margaret,

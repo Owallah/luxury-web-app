@@ -1,0 +1,6 @@
+
+Copy
+# robots.txt for Monarky Concepts Solutions
+
+User-agent: *
+Allow: /              # Allow all pages to be crawled
