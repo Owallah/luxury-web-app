@@ -1,7 +1,7 @@
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { useEffect, useState } from "react";
-import Logo from "../../assets/image/logo.png";
+import Logo from "/logo.png";
 
 const navItems = [
   { name: "Home", href: "#home" },
