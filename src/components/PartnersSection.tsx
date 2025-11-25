@@ -2,6 +2,8 @@ import { useEffect, useRef } from "react";
 import { Handshake } from "lucide-react";
 import WaodfLogo from "../assets/image/waodf_logo.png";
 import Shomoro from "../assets/image/shomoro.png";
+import Komeco from "../assets/image/komeco.png"
+
 
 interface Partner {
   id: number;
@@ -24,6 +26,11 @@ const partners: Partner[] = [
     id: 3,
     name: "Irigiro Avocado Farmers Association",
     logo: "https://panagrimedia.com/wp-content/uploads/2023/02/hass-2.jpg",
+  },
+  {
+    id: 4,
+    name: "Komeco Organic Fertilizers",
+    logo: Komeco,
   },
 ];
 
