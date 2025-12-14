@@ -1,25 +1,27 @@
 import { ChevronLeftIcon } from '@heroicons/react/24/outline';
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { useEffect, useRef, useState } from 'react';
-// import Fertikal from "../assets/image/fertikal.png"
+import Nutrifert from "../assets/image/Nutrifert.png"
 // import Benefert from "../assets/image/benesol.png"
 import Fertiken from "../assets/image/fertiken.png"
 
 const products = [
-  // {
-  //   id: 1,
-  //   name: 'Fertikal NPK 4-3-3',
-  //   description: 'Our flagship product, perfectly balanced for most Kenyan crops. Enhances soil structure while providing essential nutrients for robust plant growth.',
-  //   features: [
-  //     'Balanced NPK ratio for general purpose use',
-  //     'Contains essential micronutrients',
-  //     'Improves soil structure',
-  //     'Slow-release formula for sustained feeding',
-  //   ],
-  //   image: Fertikal,
-  //   color: 'bg-[var(--fertile-green-600)]',
-  //   main: true,
-  // },
+  {
+    id: 1,
+    name: 'Nutrifert NPK 4-3-3',
+    description: 'Our flagship product, perfectly balanced for most Kenyan crops. Enhances soil structure while providing essential nutrients for robust plant growth.',
+    features: [
+      'Balanced NPK ratio for general purpose use',
+      'Contains essential micronutrients',
+      'Improves soil structure',
+      'Slow-release formula for sustained feeding',
+      '100% Natural',
+      'The pellets have a high water retaining capacity up to three times its own weight.',
+    ],
+    image: Nutrifert,
+    color: 'bg-[var(--fertile-green-600)]',
+    main: true,
+  },
   // {
   //   id: 2,
   //   name: 'Benesol 4-3-3',
